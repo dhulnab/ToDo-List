@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
+
+header{
+    height: 70px;
+    border-bottom: 1px solid #eee;
+}
+
+header .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.logo{
+    color: #666666;
+    font-family: "Fascinate";
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.logo span{
+    color: #0000FF;
+    font-family: inherit;
+}
+
+.links ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links li{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.active{
+    color:#0000FF !important;
+}
+
+main .title {
+    margin-top: 10%;
+}
+main h1{
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+main p{
+    color:#666666
+}
+
+.form{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input{
+    width: 376px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+}
+
+input[type=text]:focus{
+    outline-color: #c3bdbd78;
+    outline-width: 1px;
+}
+
+.button{
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0000ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #2626e7e6;
+}
+
+.list{
+    border-top: 1px solid #F6F6F6;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+.item{
+    background-color: #eee;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.item:hover{
+    background-color: #e0dfdfd3;
+}
+
+/* Delete btn */
+.del{
+    cursor: pointer;
+}
+#totalSpan{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000000;
+}
+.finall-div{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.img{
+    margin-top: 100px;
+}
+
+footer{
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    position: relative;
+    bottom: -230;
+}
+footer span{
+    color: #0000FF;
+}
+
+/* Gloable */
+.container{
+    max-width: 573px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        max-width: 411px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .form{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        width: 94%;
+        font-size: 20px;
+        padding: 10px;
+        border: 2px solid #eee;
+        border-radius: 8px;
+    }
+    
+    input[type=text]:focus{
+        outline-color: #c3bdbd78;
+        outline-width: 1px;
+    }
+    
+    .button{
+        margin: 5px;
+        width: 98%;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        background-color: #0000ff;
+        color: #ffffff;
+        cursor: pointer;
+        position: absolute;
+        bottom: 20px;
+    }
+
+
+  }
